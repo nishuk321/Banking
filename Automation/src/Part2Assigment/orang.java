@@ -20,7 +20,7 @@ public class orang {
 		d.manage().window().maximize();
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		d.get("https://www.orangehrm.com/en/contact-sales/");
-		d.findElement(By.cssSelector("[name='FullName']")).sendKeys("Nishant kumar",Keys.TAB,Keys.TAB,"7870566806",Keys.TAB,"Nish@123",Keys.TAB);
+		d.findElement(By.cssSelector("[name='FullName']")).sendKeys("Rakesh kumar",Keys.TAB,Keys.TAB,"7870566806",Keys.TAB,"Nish@123",Keys.TAB);
 		WebElement w=d.findElement(By.id("Form_getForm_Country"));
 		Select s=new Select(w);
 		s.selectByVisibleText("India");

@@ -28,8 +28,7 @@ public class wooden {
 
 		Actions a = new Actions(d);
 		a.moveToElement(w).perform();
-		d.findElement(By.xpath("//a[contains(text(),'Kitchen Furniture')]/..//a[contains(text(),'Kitchen Cabinets ')]"))
-				.click();
+		d.findElement(By.xpath("//a[contains(text(),'Kitchen Furniture')]/..//a[contains(text(),'Kitchen Cabinets ')]")).click();
 		a.scrollByAmount(0, 1000).perform();
 		ArrayList al = new ArrayList();
 		al.add(20478);

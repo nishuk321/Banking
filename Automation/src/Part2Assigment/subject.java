@@ -30,7 +30,7 @@ public class subject {
 	}
 	System.out.println(h);
 		
-	d.quit();
+	//d.quit();
 	
 	
 	
